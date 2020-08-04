@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/locate/work/messageRT/main.cpp" "/home/locate/work/messageRT/cmake-build-debug/CMakeFiles/messageRT.dir/main.cpp.o"
-  "/home/locate/work/messageRT/message.cpp" "/home/locate/work/messageRT/cmake-build-debug/CMakeFiles/messageRT.dir/message.cpp.o"
+  "/home/locate/gitwen/messageRT/main.cpp" "/home/locate/gitwen/messageRT/cmake-build-debug/CMakeFiles/messageRT.dir/main.cpp.o"
+  "/home/locate/gitwen/messageRT/message.cpp" "/home/locate/gitwen/messageRT/cmake-build-debug/CMakeFiles/messageRT.dir/message.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/locate/work/messageRT/main.cpp
+/home/locate/gitwen/messageRT/main.cpp
 message.hpp
-/home/locate/work/messageRT/message.hpp
+/home/locate/gitwen/messageRT/message.hpp
 
-/home/locate/work/messageRT/message.hpp
+/home/locate/gitwen/messageRT/message.cpp
+message.hpp
+/home/locate/gitwen/messageRT/message.hpp
+
+/home/locate/gitwen/messageRT/message.hpp
 iostream
 -
 mutex

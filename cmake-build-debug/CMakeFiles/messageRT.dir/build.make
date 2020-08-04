@@ -43,10 +43,10 @@ RM = /home/locate/myinstall/clion-2020.1.2/bin/cmake/linux/bin/cmake -E remove -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/locate/work/messageRT
+CMAKE_SOURCE_DIR = /home/locate/gitwen/messageRT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/locate/work/messageRT/cmake-build-debug
+CMAKE_BINARY_DIR = /home/locate/gitwen/messageRT/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/messageRT.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/messageRT.dir/flags.make
 
 CMakeFiles/messageRT.dir/main.cpp.o: CMakeFiles/messageRT.dir/flags.make
 CMakeFiles/messageRT.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/locate/work/messageRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/messageRT.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/messageRT.dir/main.cpp.o -c /home/locate/work/messageRT/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/locate/gitwen/messageRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/messageRT.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/messageRT.dir/main.cpp.o -c /home/locate/gitwen/messageRT/main.cpp
 
 CMakeFiles/messageRT.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/messageRT.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/locate/work/messageRT/main.cpp > CMakeFiles/messageRT.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/locate/gitwen/messageRT/main.cpp > CMakeFiles/messageRT.dir/main.cpp.i
 
 CMakeFiles/messageRT.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/messageRT.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/locate/work/messageRT/main.cpp -o CMakeFiles/messageRT.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/locate/gitwen/messageRT/main.cpp -o CMakeFiles/messageRT.dir/main.cpp.s
 
 CMakeFiles/messageRT.dir/message.cpp.o: CMakeFiles/messageRT.dir/flags.make
 CMakeFiles/messageRT.dir/message.cpp.o: ../message.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/locate/work/messageRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/messageRT.dir/message.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/messageRT.dir/message.cpp.o -c /home/locate/work/messageRT/message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/locate/gitwen/messageRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/messageRT.dir/message.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/messageRT.dir/message.cpp.o -c /home/locate/gitwen/messageRT/message.cpp
 
 CMakeFiles/messageRT.dir/message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/messageRT.dir/message.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/locate/work/messageRT/message.cpp > CMakeFiles/messageRT.dir/message.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/locate/gitwen/messageRT/message.cpp > CMakeFiles/messageRT.dir/message.cpp.i
 
 CMakeFiles/messageRT.dir/message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/messageRT.dir/message.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/locate/work/messageRT/message.cpp -o CMakeFiles/messageRT.dir/message.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/locate/gitwen/messageRT/message.cpp -o CMakeFiles/messageRT.dir/message.cpp.s
 
 # Object files for target messageRT
 messageRT_OBJECTS = \
@@ -95,7 +95,7 @@ messageRT: CMakeFiles/messageRT.dir/main.cpp.o
 messageRT: CMakeFiles/messageRT.dir/message.cpp.o
 messageRT: CMakeFiles/messageRT.dir/build.make
 messageRT: CMakeFiles/messageRT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/locate/work/messageRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable messageRT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/locate/gitwen/messageRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable messageRT"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/messageRT.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/messageRT.dir/clean:
 .PHONY : CMakeFiles/messageRT.dir/clean
 
 CMakeFiles/messageRT.dir/depend:
-	cd /home/locate/work/messageRT/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/locate/work/messageRT /home/locate/work/messageRT /home/locate/work/messageRT/cmake-build-debug /home/locate/work/messageRT/cmake-build-debug /home/locate/work/messageRT/cmake-build-debug/CMakeFiles/messageRT.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/locate/gitwen/messageRT/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/locate/gitwen/messageRT /home/locate/gitwen/messageRT /home/locate/gitwen/messageRT/cmake-build-debug /home/locate/gitwen/messageRT/cmake-build-debug /home/locate/gitwen/messageRT/cmake-build-debug/CMakeFiles/messageRT.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/messageRT.dir/depend
 

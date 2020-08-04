@@ -44,10 +44,10 @@ RM = /home/locate/myinstall/clion-2020.1.2/bin/cmake/linux/bin/cmake -E remove -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/locate/work/messageRT
+CMAKE_SOURCE_DIR = /home/locate/gitwen/messageRT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/locate/work/messageRT/cmake-build-debug
+CMAKE_BINARY_DIR = /home/locate/gitwen/messageRT/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/messageRT.dir/clean
 CMakeFiles/messageRT.dir/all:
 	$(MAKE) -f CMakeFiles/messageRT.dir/build.make CMakeFiles/messageRT.dir/depend
 	$(MAKE) -f CMakeFiles/messageRT.dir/build.make CMakeFiles/messageRT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/locate/work/messageRT/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target messageRT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/locate/gitwen/messageRT/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target messageRT"
 .PHONY : CMakeFiles/messageRT.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/messageRT.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/locate/work/messageRT/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/locate/gitwen/messageRT/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/messageRT.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/locate/work/messageRT/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/locate/gitwen/messageRT/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/messageRT.dir/rule
 
 # Convenience name for target.
